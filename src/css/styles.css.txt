@@ -1,0 +1,23 @@
+:root {
+    --colorUno: #FFFFFF;
+    --colorDos: #0078D7;
+    --colorTres: #36CFFF;
+    --colorCuatro: #1B263B;
+    --colorCinco: #FFA500;
+    --fuentePrincipal: "Roboto", sans-serif;
+    --fuenteSecundaria: "Lato", sans-serif;
+}
+
+html {
+    background-color: var(--colorUno);
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+}
+
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
