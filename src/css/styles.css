@@ -122,3 +122,77 @@ ul li:last-child a:hover {
         flex: 1 1 100%;
     }
 }
+
+.servicio{
+    padding: 5rem 0;
+}
+
+
+.services__title{
+    color: purple;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.services__subtitle{
+    text-align: center;
+    color: orange;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+    padding:0 1.5rem;
+}
+
+.services__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+}
+
+.service-card{
+    border: 1px solid purple;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0, 0.5) ;
+}
+
+.service-card__icon img {
+    width: 14rem; 
+    height: 8%;
+    margin-bottom: 1.5rem;
+}
+
+.service-card__title {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 1.5rem 0 1rem 0;
+}
+
+.service-card__button {
+    display: block; 
+    width: 100%;
+    font-size: 1.4rem;
+    padding: .8rem 2rem;
+    background-color: var(--secondary);
+}
+
+.service-card__description{
+    font-size: 1rem;
+    margin-bottom: auto;
+}
+
+.service-card__button{
+    display:block;
+    width: 100%;
+    font-size: 1.4rem;
+    padding: .8rem 2rem;
+    color: var(--colorDos);
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+}
+
