@@ -204,13 +204,15 @@ ul li:last-child a:hover {
     }
 }
 
+/* Styles for Section Services */
 .servicio{
     padding: 5rem 0;
+    background-color: #000;
+
 }
 
-
 .services__title{
-    color: purple;
+    color: red;
     text-align: center;
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -218,7 +220,7 @@ ul li:last-child a:hover {
 
 .services__subtitle{
     text-align: center;
-    color: orange;
+    color: darkgray;
     font-size: 1.6rem;
     font-weight: 400;
     margin-bottom: 3rem;
@@ -227,38 +229,54 @@ ul li:last-child a:hover {
 
 .services__container{
     display: grid;
-    grid-template-columns: 1fr;
     gap: 2rem;
+    max-width: 100%;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .service-card{
-    border: 1px solid purple;
+    border: 1px solid darkred;
+    color: gray;
     padding: 2.5rem;
-    border-radius: 1rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0, 0.5) ;
+    border-radius: 2rem;
+    box-shadow: 2rem 4rem 28rem rgba(255, 0, 0, 0.5) ;
 }
 
 .service-card__icon img {
     width: 14rem; 
     height: 8%;
     margin-bottom: 1.5rem;
+    box-shadow: .2rem 2rem 2rem rgba(0,0,0,0.3);
 }
 
 .service-card__title {
     font-family: var(--font-heading);
     font-size: 2rem;
     font-weight: 700;
-    color: var(--primary);
+    color: white;
     margin: 1.5rem 0 1rem 0;
 }
 
-.service-card__button {
+.service-card__button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0.8rem .6rem 2rem rgba(255, 0, 0, 0.7);
+}
+
+.service-card__button__S:hover{
+    transform: translateY(-5px);
+    box-shadow: 0.8rem .6rem 2rem rgba(255, 0, 0, 0.7);
+}
+
+.service-card__button{
     display: block; 
-    width: 100%;
-    font-size: 1.4rem;
-    padding: .8rem 2rem;
-    background-color: var(--secondary);
+    width: 45%;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0.6rem .4rem 2rem rgba(255, 0, 0, 0.5);
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
 }
 
 .service-card__description{
@@ -267,13 +285,62 @@ ul li:last-child a:hover {
 }
 
 .service-card__button{
-    display:block;
-    width: 100%;
-    font-size: 1.4rem;
-    padding: .8rem 2rem;
     color: var(--colorDos);
-    font-weight: 700;
+    font-weight: 800;
     text-decoration: none;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.service-card__button__S{
+    display: block;
+    width: 45%;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0.6rem .4rem 2rem rgba(255, 0, 0, 0.5);
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.service-card__button__S{
+    color: var(--colorDos);
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+@media (width >= 768px) {
+    .services__container{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .servicio {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .service-card{
+        width: 30%;
+    }
+
+    .service-card__button{
+        width: 60%;
+    }
+
+    .service-card__button__S{
+        width: 60%;
+        margin-top: 6rem;
+    }
 }
 
