@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GasConnect: Aplicación web para solicitar y recibir gas a domicilio en cualquier lugar de la ciudad.">
+    <title>GasConnect</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/normalize.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/877/877669.png" type="image/x-icon">
+</head>
+<body>
+
+    
+    <header class="container">
+        <nav class="navbar__container">
+            <h1 class="navbar__logo">
+                Gas<span class="navbar__logo--primary">Connect</span>
+            </h1>
+            <ul class="navbar__menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">App</a></li>
+                <li><a href="#">Galería</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#" class="btn-login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
+<!-- Start - Section Main -->
+<main class="hero">
+    <div class="hero__text">
+        <h2>Llevamos gas<span class="hero__title"> a donde nos sea posible</span></h2>
+        <a href="#" class="button hero__button">Más información</a>
+    </div>
+
+    <div class="hero__img">
+        <img src="./src/images/logo.png" loading="lazy">
+    </div>
+
+    <div class="hero__services">
+        <div class="service">
+            <i class='bx bx-timer'></i> 
+            <p>Rápido</p>
+        </div>
+        <div class="service">
+            <i class='bx bx-shield'></i> 
+            <p>Confiable</p>
+        </div>
+        <div class="service">
+            <i class='bx bx-gas-pump'></i> 
+            <p>Eficiente</p>
+        </div>
+        <div class="service">
+            <i class='bx bx-time-five'></i> 
+            <p>24/7</p>
+        </div>
+    </div>
+</main>
+<!-- End - Section Main -->
+<!--SCRIPT 2-->
+<!-- Start - Section About -->
+<header class="container">
+    <div class="about">
+        <div class="about__container">
+            <h2 class="about__title">Sobre Nosotros</h2>
+            <p class="about__text">
+                En GasConnect, nos dedicamos a llevar gas de manera rápida, segura y eficiente hasta donde estés.
+            </p>
+            <p class="about__text">
+                A través de nuestra plataforma web puedes programar tus entregas, verificar disponibilidad y recibir tu pedido sin complicaciones.
+            </p>
+            <p class="about__text">
+                Nuestra meta es simplificar el acceso al gas doméstico y comercial, brindando un servicio confiable en cualquier momento y lugar.
+            </p>
+        </div>
+
+        <div class="about__img">
+            <img src="./src/images/camion.jpeg" loading="lazy">
+        </div>
+    </div>
+</header>
+<!-- End - Section About -->
+
+<!-- End - Section Services -->
+<section class="servicio">
+    <div class="contenido">
+        <h2 class="services__title">Nuestros Servicios de Entrega</h2>
+        <article>
+            <h4 class="services__subtitle">Con GasConnect, olvídate de las esperas. Te conectamos con gas de forma rápida y segura.</h4>
+            
+            <div class="services__container">
+                
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <img src="./src/images/delivery.jpeg" alt="Icono de entrega rápida" loading="lazy">
+                        
+                    </div>
+                    <p class="service-card__title">Entrega Rápida a Domicilio</p>
+                    <p class="service-card__description">Solicita tu cilindro de gas y recíbelo en la puerta de tu casa o negocio en minutos.</p>
+                    <a href="#" class="button service-card__button">Pedir Gas Ahora</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <img src="./src/images/daquilema.jpg" alt="Icono de mapa con ubicación" loading="lazy">
+                        
+                    </div>
+                    <p class="service-card__title">Seguimiento en Tiempo Real</p>
+                    <p class="service-card__description">Observa el recorrido de tu pedido y el tiempo estimado de llegada en la aplicación.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <img src="./src/images/pagos-seguros.png" alt="Icono de pago seguro" loading="lazy">
+                        
+                    </div>
+                    <p class="service-card__title">Pagos Seguros y Programados</p>
+                    <p class="service-card__description">Paga con tarjeta o efectivo. Programa tus entregas para que nunca te quedes sin gas.</p>
+                    <a href="#" class="button service-card__button">Opciones de Pago</a>
+                </div>
+
+            </div>            
+        </article>
+    </div>
+</section>
+
+
+ <!-- End - Section Services -->
+
+    <section class="container app">
+        <div class="mobile">
+            <h2 class="mobile__title">Descarga la aplicación</h2>
+            <p class="mobile__description">Con nuestra app, puedes reservar una electrolinera en cuestión de minutos,
+                además, puedes encontrar estaciones de carga cerca de ti y hacer un seguimiento de la duración de la
+                batería de tu coche en tiempo real y mucho más.</p>
+            <div class="mobile__buttons">
+                <img src="./src/images/appstore.png" alt="PlayStore" loading="lazy">
+                <img src="./src/images/googleplay.png" alt="GooglePlay" loading="lazy">
+            </div>
+        </div>
+        <div class="mobile__img">
+            <img src="./src/images/phone.png" alt="Carmobile" loading="lazy">
+        </div>
+    </section>
+  <!-- Start - Section gallery -->
+    <section class="gallery">
+
+    <h3 class="gallerytitle">Galería</h3>
+    <p class="gallery_description">explora nuestra galeriay descubre como hacemos posible tu carga rapida ,segura y eficiente </p>
+
+    </section>
+ <!-- Start - Section gallery -->
+
+    <!-- Start - Section Contact -->
+    <section class="container contact">
+        <div class="contact__form">
+            <h2 class="contact__title">¿Tienes preguntas? Escríbenos</h2>
+            <form>
+                <input type="name="nombre" placeholder="Nombre" required>
+                <input type="email" name="corre0" placeholder="Correo" required>
+                <input type="tel" name="celular" placeholder="Celular" required>
+                <textarea name="observaciones" placeholder="Observaciones" rows="4"></textarea>
+                <label class="checkbox__label">
+                    <input type="checkbox" required>
+                    Términos y condiciones
+                </label>
+                <button type="submit" class="btn button">Enviar</button>
+            </form>
+        </div>
+
+        <div class="contact__map">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7914484515727!2d-78.4919116241778!3d-0.21028603539840138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a107e1cd44b%3A0x88a284f66939ed4!2sESCUELA%20POLIT%C3%89CNICA%20NACIONAL!5e0!3m2!1ses!2sec!4v1761571369230!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- End - Section Contact -->
+
+        <!-- Start - Section Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__social">
+                <h3>Síguenos en redes</h3>
+                <div class="social__icons">
+                    <a href="#"><i class="fa-brands fa-facebook">facebook</i></a>
+                    <a href="#"><i class="fa-brands fa-twitter">twitter</i></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram">instagram</i></a>
+                </div>
+            </div>
+
+            <div class="footer__links">
+                <h3>Enlaces de interés</h3>
+                <div class="links">
+                    <a href="#">Soporte técnico</a>
+                    <a href="#">Blog de noticias</a>
+                    <a href="#">Preguntas frecuentes (FAQ)</a>
+                </div>
+            </div>
+
+            <div class="footer__contact">
+                <h3>Llámamos</h3>
+                <p class="call">(593) 995644186</p>
+                <h3>Escríbenos</h3>
+                <p class="write">GasConnect@gmail.com</p>
+            </div>
+        </div>
+
+        <hr/>
+        <p class="footer__copy">© Derechos Reservados - GasConnect</p>
+    </footer>
+    <!-- End - Section Footer -->
