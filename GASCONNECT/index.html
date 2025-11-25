@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GasConnect: Aplicación web para solicitar y recibir gas a domicilio en cualquier lugar de la ciudad.">
+    <title>GasConnect</title>
+    <link rel="icon" href="/images/pestaña-Photoroom.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="shortcut icon" href="/src/images/pestaña.jpg" type="image/x-icon">
+    
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <h1 class="logo">
+                Gas<span class="logo--primary">Connect</span>
+            </h1>
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#app">App</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#" class="btn btn--primary">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="hero" id="inicio">
+        <div class="container hero-grid">
+            
+            <div class = "hero-left">
+                <div class="hero-text-content">
+                    <h2>Llevamos gas <span class="text-highlight">a donde nos sea posible</span></h2>
+                    <a href="#servicios" class="btn btn--primary">Pedir Gas Ahora</a>
+                </div>
+                <div class="hero-features">
+                    <div class="feature-card">
+                        <i class='bx bx-timer'></i> 
+                        <p>Rápido</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <i class='bx bx-shield'></i> 
+                        <p>Confiable</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <i class='bx bx-time-five'></i> 
+                        <p>24/7</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="/images/camion-grande-Photoroom.png" alt="Logo animado de GasConnect" loading="eager">
+            </div>
+            
+            
+        </div>
+    </main>
+
+    <section class="about-us" id="nosotros">
+        <div class="container about-grid">
+            <div class="about-content">
+                <h2 class="section-title">Sobre Nosotros</h2>
+                <p>
+                    En GasConnect, nos dedicamos a llevar gas de manera rápida, segura y eficiente hasta donde estés.
+                </p>
+                <p>
+                    A través de nuestra plataforma web puedes programar tus entregas, verificar disponibilidad y recibir tu pedido sin complicaciones.
+                </p>
+                <p>
+                    Nuestra meta es simplificar el acceso al gas doméstico y comercial, brindando un servicio confiable en cualquier momento y lugar.
+                </p>
+            </div>
+
+            <div class="about-image">
+                <img src="/images/camion.png" alt="Camión de GasConnect en la ciudad" loading="lazy">
+            </div>
+        </div>
+    </section>
+    
+    <section class="services-section bg-dark" id="servicios">
+        <div class="container">
+            <h2 class="section-title text-center text-light">Nuestros Servicios de Entrega</h2>
+            <h4 class="services-subtitle text-center">Con GasConnect, olvídate de las esperas largas y aburridas. Te llevamos gas de forma rápida y segura.</h4>
+            
+            <div class="services-grid">
+                
+                <article class="service-card">
+                    <div class="card-icon">
+                        <img src="./images/rayo-Photoroom.png" alt="Icono de entrega rápida" loading="lazy">
+                    </div>
+                    <h3 class="card-title">Entrega Rápida a Domicilio</h3>
+                    <p class="card-description">Solicita tu cilindro de gas y recíbelo en la puerta de tu casa o negocio en minutos.</p>
+                    <a href="#" class="btn btn--secondary">Pedir Gas Ahora</a>
+                </article>
+                
+                <article class="service-card">
+                    <div class="card-icon">
+                        <img src="./images/ubicacion-Photoroom.png" alt="Icono de mapa con ubicación" loading="lazy">
+                    </div>
+                    <h3 class="card-title">Seguimiento en Tiempo Real</h3>
+                    <p class="card-description">Observa el recorrido de tu pedido y el tiempo estimado de llegada en la aplicación.</p>
+                    <a href="#" class="btn btn--secondary">Seguimiento Ahora</a>
+                </article>
+                
+                <article class="service-card">
+                    <div class="card-icon">
+                        <img src="./images/candado-Photoroom.png" alt="Icono de pago seguro" loading="lazy">
+                    </div>
+                    <h3 class="card-title">Pagos Seguros y Programados</h3>
+                    <p class="card-description">Paga con tarjeta o efectivo. Programa tus entregas para que nunca te quedes sin gas.</p>
+                    <a href="#" class="btn btn--secondary">Opciones de Pago</a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="app-promo container" id="app">
+        <div class="app-grid">
+
+                <img src="/images/telefono-Photoroom.png" width="300" height="500" alt="Teléfono mostrando la aplicación GasConnect" loading="lazy">
+            
+            <div class="app-content">
+                <h2 class="section-title">Descarga la aplicación</h2>
+                <p class="app-description">Con nuestra app, puedes programar la entrega de gas a domicilio fácilmente. Vive la comodidad de tener el control en tus manos.</p>
+                
+                    <img src="./images/googleplay.png" alt="Logo Google Play" loading="lazy">
+                    <img src="./images/appstore.png" alt="Logo App Store" loading="lazy">
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery bg-dark" id="galeria">
+        <div class="container">
+            <h2 class="section-title text-center text-light">Galería de Entregas</h2>
+            <p class="gallery-description text-center">Explora nuestra galería para ver a nuestro equipo en acción.</p>
+            <!-- IMAGENES LOGO FALTA -->
+        </div>
+    </section>
+
+    <section class="contact-section container" id="contacto">
+        <div class="contact-grid">
+            
+            <div class="contact-form-container">
+                <h2 class="section-title text-center">¿Tienes preguntas? Escríbenos</h2>
+                <form class="contact-form">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="email" name="correo" placeholder="Correo" required>
+                    <input type="tel" name="celular" placeholder="Celular" required>
+                    <textarea name="observaciones" placeholder="Observaciones" rows="5"></textarea>
+                    
+                    <label class="checkbox-label">
+                        <input type="checkbox" required>
+                        Acepto los Términos y condiciones
+                    </label>
+                    
+                    <button type="submit" class="btn btn--primary btn-full-width">Enviar Mensaje</button>
+                </form>
+            </div>
+
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d997.4478499867735!2d-78.48872713280483!3d-0.21047573598949548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sepn!5e0!3m2!1ses-419!2sec!4v1764109710956!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="main-footer bg-dark">
+        <div class="container footer-grid">
+            
+            <div class="footer-block footer-contact-info">
+                <h3 class="footer-title">Contacto</h3>
+                <p class="call">(593) 995644186</p>
+                <p class="write">GasConnect@gmail.com</p>
+            </div>
+            
+            <div class="footer-block footer-links">
+                <h3 class="footer-title">Enlaces de interés</h3>
+                <a href="#">Soporte técnico</a>
+                <a href="#">Blog de noticias</a>
+                <a href="#">Preguntas frecuentes (FAQ)</a>
+            </div>
+
+            <div class="footer-block footer-social">
+                <h3 class="footer-title">Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-copy">
+            <hr>
+            <p>© 2024 GasConnect. Derechos Reservados.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
